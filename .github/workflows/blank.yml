@@ -19,5 +19,5 @@ jobs:
         website_url: 'https://documentation.red-gate.com/'
         verbose: 'true'
         max_retry_time: 2
-        max_retries: 0
-        max_depth: 1
+        max_retries: 1
+        max_depth: 10
