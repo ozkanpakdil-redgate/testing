@@ -16,6 +16,7 @@ jobs:
     - name: Checking links
       uses: ScholliYT/Broken-Links-Crawler-Action@v3
       with:
+        connect_limit_per_host: 2
         website_url: 'https://documentation.red-gate.com/'
         verbose: 'true'
         max_retry_time: 2
