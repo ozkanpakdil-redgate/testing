@@ -18,6 +18,7 @@ jobs:
       with:
         connect_limit_per_host: 2
         website_url: 'https://documentation.red-gate.com/'
+        exclude_url_suffix: '.pdf,.jpg,.gif,.png,.jpeg,.zip,.mp4,.webm,.svg,.docx,.xlsx,.pptx,.txt,.md,.json,.xml,.js,.css,/release-notes-and-other-versions'
         verbose: 'true'
         max_retry_time: 2
         max_retries: 1
