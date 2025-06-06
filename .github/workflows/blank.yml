@@ -19,7 +19,6 @@ jobs:
         connect_limit_per_host: 1
         website_url: 'https://documentation.red-gate.com/'
         exclude_url_suffix: '.jar,.md5,.sha1,.pdf,.jpg,.gif,.png,.jpeg,.zip,.mp4,.webm,.svg,.docx,.xlsx,.pptx,.txt,.md,.json,.xml,.js,.css,/release-notes-and-other-versions,https://support.google.com/a/answer/47283,'
-        # exclude_url_prefix: 'http://v1beta1.custom.metrics.k8s.io,https://dev.mysql.com/doc/refman/8.0/en/option-files.html,https://dev.mysql.com/doc/refman/8.4/en/stored-programs-defining.html,https://dev.mysql.com/downloads/connector/j/,https://www.nuget.org/packages/RedGate.SmartAssembly.MSBuild/,https://mvnrepository.com/artifact/com.microsoft.azure/msal4j,https://www.nuget.org/packages/flyway.commandLine,http://www.simple-talk.com/blogs/2013/03/05/speeding-up-your-application-with-the-iis-auto-start-feature/'
         verbose: 'true'
         max_retries: 2
         max_depth: 10
