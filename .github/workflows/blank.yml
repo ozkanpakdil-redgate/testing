@@ -18,7 +18,7 @@ jobs:
       with:
         connect_limit_per_host: 1
         website_url: 'https://documentation.red-gate.com/'
-        exclude_url_suffix: '.jar,.md5,.sha1,.pdf,.jpg,.gif,.png,.jpeg,.zip,.mp4,.webm,.svg,.docx,.xlsx,.pptx,.txt,.md,.json,.xml,.js,.css,/release-notes-and-other-versions'
+        exclude_url_suffix: '.jar,.md5,.sha1,.pdf,.jpg,.gif,.png,.jpeg,.zip,.mp4,.webm,.svg,.docx,.xlsx,.pptx,.txt,.md,.json,.xml,.js,.css,/release-notes-and-other-versions,https://dev.mysql.com'
         verbose: 'true'
         max_retries: 2
         max_depth: 10
