@@ -5,9 +5,8 @@ on:
     branches: 
       - main
   schedule:
-    # run daily at 4 am
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 4 * * *'
+    # run weekly at 4 am on Sundays
+    - cron: '0 4 * * 0'
 jobs:
   crawl_for_broken_links:
     runs-on: ubuntu-latest
